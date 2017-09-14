@@ -13,6 +13,7 @@ namespace LumiMapa
         {
             InitializeComponent();
             BindingContext = new ViewModels.MainViewModel();
+            ViewModels.MainViewModel.MeuMapa = MyMap;
         }
     }
 }

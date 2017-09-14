@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
 
+
 namespace LumiMapa.Services
 {
     public class AzureServices<T>
