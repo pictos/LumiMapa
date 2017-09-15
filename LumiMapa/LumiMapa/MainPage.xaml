@@ -6,7 +6,7 @@
              x:Class="LumiMapa.MainPage"
              Title="Retorno de valores">
 
-    <StackLayout Padding="50">
+    <StackLayout>
         <Button Text="Consultar" Command="{Binding GetUserCommand}"/>
 
         <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>

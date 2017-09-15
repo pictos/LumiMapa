@@ -50,7 +50,7 @@ namespace LumiMapa.ViewModels
                             Type = PinType.Place,
                             Position = posicao,
                             Label = "Leitura",
-                            Address =$"Valor de leitura: {leitura.Valor}"
+                            Address =$"Valor de leitura: {leitura.Valor} em {leitura.Data}"
                         };
                         MeuMapa.Pins.Add(pin);
                         Luminosidades.Add(leitura);
